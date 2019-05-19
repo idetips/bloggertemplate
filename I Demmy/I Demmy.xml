@@ -1504,7 +1504,7 @@ fjs.parentNode.insertBefore(js, fjs);
 <b:if cond='data:post.labels'>
 <b:loop index='no' values='data:post.labels limit 1' var='label'>
 <span class='breadlabel' itemprop='itemListElement' itemscope='itemscope' itemtype='http://schema.org/ListItem'>								
-<a expr:href='data:label.url' expr:title='data:label.name' itemprop='item' itemscope='itemscope' itemtype='http://schema.org/Thing'>
+<a expr:href='data:label.url' expr:title='data:label.name' itemprop='item'>
 <span itemprop='name'><data:label.name/></span>				
 </a>
 <meta expr:content='1 + data:no' itemprop='position'/>
