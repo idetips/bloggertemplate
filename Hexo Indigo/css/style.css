@@ -3327,6 +3327,9 @@ pre .javascript .function {
 .article-tag-list-item:nth-child(n+6) {
   background: #2196f3;
 }
+.article-tag-list-item:nth-child(n+3) {
+    display: none;
+}
 .article-tag-list-link {
   display: block;
   padding: 0 16px;
